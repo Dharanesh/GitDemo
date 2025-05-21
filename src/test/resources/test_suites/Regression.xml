@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FP_3_And_FP4">
+	<test thread-count="5" name="Regression">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+
+		 <!-- jayashree -->
+			
+		 <!--  <class name="regression_Bugs.FP3_16505_Alignment" /> 
+		 <class name="regression_Bugs.FP4_23732" /> 
+		 <class name="regression_Bugs.FP4_23733" />
+		 <class name="regression_Bugs.FP3_12393" />
+		 <class name="regression_Bugs.FP4_23691" />
+		 <class name="regression_Bugs.FP3_21974" />
+		 <class name="regression_Bugs.FP3_23183" />
+		 <class name="regression_Bugs.FP4_23664" />  
+		 <class name="regression_Bugs.FP3_22025" /> 
+
+		 <class name="regression_Bugs.FP4_23701" /> 
+		 <class name="regression_Bugs.FP4_23697" /> 
+		 <class name="regression_Bugs.FP4_23643" /> 
+		 <class name="regression_Bugs.FP4_23714" /> 
+		 <class name="regression_Bugs.FP4_23695" />
+		 <class name="regression_Bugs.FP4_23677" />   -->
+
+		<!-- sushmitha -->
+		
+		<!-- <class name="regression_Bugs.FP4_23725_23726" />
+		<class name="regression_Bugs.FP4_23686" />
+		<class name="regression_Bugs.FP4_23689" />
+		<class name="regression_Bugs.FP4_23692" />
+		<class name="regression_Bugs.FP4_23702" />
+		<class name="regression_Bugs.FP4_23713" />
+		<class name="regression_Bugs.FP4_23724" /> 
+        <class name="regression_Bugs.FP3_17117"/>   
+        <class name="regression_Bugs.FP3_18272"/> 
+        <class name="regression_Bugs.FP3_19920"/> 
+        <class name="regression_Bugs.FP3_22038"/>
+        <class name="regression_Bugs.FP3_13983"/>  -->
+      	
+		<!-- Cherma -->
+
+	    <!-- <class name="regression_Bugs.FP3_10978"/>
+		<class name="regression_Bugs.FP3_12234"/>
+	    <class name="regression_Bugs.FP3_9145" />
+		<class name="regression_Bugs.FP3_21260" />
+		<class name="regression_Bugs.FP4_23676"/>
+		<class name="regression_Bugs.FP4_23694"/>
+		<class name="regression_Bugs.FP4_23725"/>
+		<class name="regression_Bugs.FP4_23726"/>  
+		<class name="regression_Bugs.FP4_23663"/>
+		<class name="regression_Bugs.FP4_23661"/> -->
+			
+		<!-- Tapaswini FP3-->
+		<!-- <class name="regression_Bugs.FP3_9701"/> -->
+		
+		<!-- <class name="regression_Bugs.FP3_10219"/>
+		<class name="regression_Bugs.FP3_22636"/> 
+		<class name="regression_Bugs.FP3_22638"/>
+		<class name="regression_Bugs.FP3_17734"/> -->
+		
+		<!-- Tapaswini_Smoke case -->
+		  
+	    <!-- <class name="Cubeware_Maven.Report.TestCase_26067"/>
+		<class name="Cubeware_Maven.Report.TestCase_26068"/> 
+		<class name="Cubeware_Maven.Report.TestCase_26070"/>
+		<class name="Cubeware_Maven.Report.TestCase_26071"/> 
+	    <class name="Cubeware_Maven.Report.TestCase_26072"/> -->
+	
+	    <!-- <class name="Cubeware_Maven.Report.TestCase_26340"/>
+		<class name="Cubeware_Maven.Report.TestCase_26339"/>  -->
+		
+		<class name="Cubeware_Maven.Report.TestCase_26348"/> 
+		
+		
+		
+		
+		</classes>
+	</test> <!-- Regression -->
+</suite> <!-- FP_3_And_FP4 -->
+

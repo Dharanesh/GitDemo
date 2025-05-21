@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke_Update">
+	<test thread-count="5" name="Testng">
+		<parameter name="browser" value="Firefox"></parameter>
+		<classes>
+		
+			<!-- Sprint-1 -->
+		     <!--  <class name="smokeCase.TestCase_25049"/> 
+		    <class name="smokeCase.TestCase_25055"/>
+		     <class name="smokeCase.TestCase_25056"/>   -->
+		     
+				<!-- Sprint-2 -->
+					
+	    	<!-- <class name="smokeCase.TestCase_26071"/>		 
+		  	<class name="smokeCase.TestCase_26063"/>
+		   <class name="smokeCase.TestCase_26064"/>
+		   	<class name="smokeCase.TestCase_26066"/>
+		   	<class name="smokeCase.TestCase_26067"/>  
+		   	<class name="smokeCase.TestCase_26068"/>
+		   	<class name="smokeCase.TestCase_26069"/>
+		   	<class name="smokeCase.TestCase_26070"/>
+		   	<class name="smokeCase.TestCase_26072"/>  
+			<class name="smokeCase.TestCase_25057"/>   -->
+			
+		   				<!-- Sprint-3 -->
+		   	<class name="smokeCase.TestCase_24666"/>
+		    <!-- <class name="smokeCase.TestCase_24661"/> 
+		   	<class name="smokeCase.TestCase_24664"/> 
+		   	<class name="smokeCase.TestCase_24657"/>
+		  	<class name="smokeCase.TestCase_24666"/>   -->
+		  
+		   				<!-- Sprint-5 -->
+		   <!-- <class name="smokeCase.TestCase_25381"/>  
+		   <class name="smokeCase.TestCase_25383"/>
+		   	<class name="smokeCase.TestCase_25385"/>   -->
+		    
+		   <!--  Data_Mashup(Sprint-11-13) -->
+		   <!--   <class name="smokeCase.TestCase_37304"/> 
+		    <class name="smokeCase.TestCase_37305"/>
+			<class name="smokeCase.TestCase_37312"/>
+				  
+		 	<class name="smokeCase.TestCase_37764"/>  
+	        <class name="smokeCase.TestCase_37765"/>
+	        <class name="smokeCase.TestCase_37771"/>
+			<class name="smokeCase.TestCase_37772"/>
+		   	<class name="smokeCase.TestCase_37306"/>  -->
+		    
+		    <!--  Sprint-13 -->
+		   <!--  <class name="smokeCase.TestCase_38022"/> 
+		     <class name="smokeCase.TestCase_38023"/> 
+		    <class name="smokeCase.TestCase_38021"/> 
+			 <class name="smokeCase.TestCase_38019"/>  -->
+			
+			<!--class name="smokeCase.TestCase_25055"_37768_sprint1/>
+			<class name="smokeCase.TestCase_25057"_37770_Sprint2/>
+			<class name="smokeCase.TestCase_25043"_37306_NosPRINT_Splashing)/> -->
+				
+				  
+		</classes>
+	</test> <!-- Testng -->
+</suite> <!-- Suite -->

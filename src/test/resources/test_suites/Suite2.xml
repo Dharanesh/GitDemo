@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test thread-count="5" name="Regression">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+		 
+		 <!-- Failed Test Case -->
+		   <!--  <class name="smokeCase.TestCase_25049"/> -->
+		   <!-- <class name="smokeCase.TestCase_25387"/> WORKING-->
+		   	 
+<!--======================================================================  -->				 
+		     <!-- Smoke cases_Tapaswini -->
+		     
+		     <!-- Sprint-1 -->
+
+		     <class name="smokeCase.TestCase_25049"/>
+		     <class name="smokeCase.TestCase_25055"/>
+		     <class name="smokeCase.TestCase_25056"/>
+		     
+			 	<!-- Sprint-2 -->
+		 	<class name="smokeCase.TestCase_26071"/>		 
+			<class name="smokeCase.TestCase_26063"/>
+		   	<class name="smokeCase.TestCase_26064"/>
+		   	<class name="smokeCase.TestCase_26066"/>
+		   	<class name="smokeCase.TestCase_26067"/>  
+		   	<class name="smokeCase.TestCase_26068"/>
+		   	<class name="smokeCase.TestCase_26069"/>
+		   	<class name="smokeCase.TestCase_26070"/>
+		   	<class name="smokeCase.TestCase_26072"/> 
+			<class name="smokeCase.TestCase_25057"/>   
+			
+		   				<!-- Sprint-3 -->
+		   
+		    <class name="smokeCase.TestCase_24661"/> 
+		   	<class name="smokeCase.TestCase_24664"/>
+		  	<class name="smokeCase.TestCase_24666"/> 
+		   	<class name="smokeCase.TestCase_24657"/>   
+
+		   				<!-- Sprint-5 -->
+		    <class name="smokeCase.TestCase_25381"/> 
+		    <class name="smokeCase.TestCase_25383"/>
+		    <class name="smokeCase.TestCase_25385"/> 
+		    
+		    <!-- Data_Mashup(Sprint-11-13)-->
+		    <class name="smokeCase.TestCase_37304"/>
+		    <class name="smokeCase.TestCase_37305"/>
+			<class name="smokeCase.TestCase_37312"/>
+				  
+			<class name="smokeCase.TestCase_37764"/> 
+	        <class name="smokeCase.TestCase_37765"/>
+	        <class name="smokeCase.TestCase_37771"/>
+			<class name="smokeCase.TestCase_37772"/>
+		   	<class name="smokeCase.TestCase_37306"/> 
+		    
+		     <!-- Sprint-13 -->
+		    <class name="smokeCase.TestCase_38022"/> 
+		    <class name="smokeCase.TestCase_38023"/>
+		    <class name="smokeCase.TestCase_38021"/> 
+			<class name="smokeCase.TestCase_38019"/> 
+			
+			<!--class name="smokeCase.TestCase_25055"_37768_sprint1/>
+			<class name="smokeCase.TestCase_25057"_37770_Sprint2/>
+			<class name="smokeCase.TestCase_25043"_37306_NosPRINT_Splashing)/> -->
+				
+<!--==============================KARISHMA========================================  -->		
+
+		   				<!--Sprint 1  --> 
+		 <class name="smokeCase.TestCase_28490"/> 
+		 <class name="smokeCase.TestCase_25847"/> 
+		 <class name="smokeCase.TestCase_26065"/>
+		 <class name="smokeCase.TestCase_25044"/>
+		 <class name="smokeCase.TestCase_29032"/> 
+		 <class name="smokeCase.TestCase_29033"/> 
+        
+         
+          			 <!--Sprint 2  -->     
+         <class name="smokeCase.TestCase_25651"/>
+         <class name="smokeCase.TestCase_25884"/>
+         <class name="smokeCase.TestCase_25650"/>
+         <class name="smokeCase.TestCase_25882"/> 
+         <class name="smokeCase.TestCase_25883"/>
+         <class name="smokeCase.TestCase_26059"/>
+         <class name="smokeCase.TestCase_26060"/> 
+         <class name="smokeCase.TestCase_26061"/>
+         <class name="smokeCase.TestCase_26062"/>
+          
+         			 <!--Sprint 3  -->  
+   	    <class name="smokeCase.TestCase_24662"/>
+        <class name="smokeCase.TestCase_24669"/>
+        <class name="smokeCase.TestCase_24659"/>            
+  	    <class name="smokeCase.TestCase_24667"/>   
+  		
+  		         <!--Sprint 4  -->  
+     	 <class name="smokeCase.TestCase_24529"/>  
+  	    <class name="smokeCase.TestCase_24358"/>
+  	    <class name="smokeCase.TestCase_24679"/> 
+        <class name="smokeCase.TestCase_25785"/>
+  	    <class name="smokeCase.TestCase_24675"/> 
+  	    <class name="smokeCase.TestCase_24502"/>
+  	    <class name="smokeCase.TestCase_24532"/> 
+  	    <class name="smokeCase.TestCase_24678"/> 
+
+                 <!--Sprint 5  -->
+
+        <class name="smokeCase.TestCase_25380"/>    
+        <class name="smokeCase.TestCase_25382"/> 
+        <class name="smokeCase.TestCase_25384"/>
+        <class name="smokeCase.TestCase_25386"/>
+        
+        		<!--Sprint 6  -->
+        <class name="smokeCase.TestCase_24483"/>
+	    <class name="smokeCase.TestCase_24484"/>
+	    <class name="smokeCase.TestCase_24485"/> 
+	    
+	    <class name="smokeCase.TestCase_26317"/>  
+	    <class name="smokeCase.TestCase_26318"/>
+	    <class name="smokeCase.TestCase_26320"/>
+	    <class name="smokeCase.TestCase_26319"/>
+	    
+	    <class name="smokeCase.TestCase_24489"/> 
+	    <class name="smokeCase.TestCase_26316"/>
+	    <class name="smokeCase.TestCase_26323"/>
+	    <class name="smokeCase.TestCase_24479"/>
+	    
+	              <!--Sprint 7  -->
+	    <class name="smokeCase.TestCase_24672"/>
+	    <class name="smokeCase.TestCase_24673"/>
+	    <class name="smokeCase.TestCase_25518"/>
+        <class name="smokeCase.TestCase_25519"/>
+        <class name="smokeCase.TestCase_25520"/>
+        <class name="smokeCase.TestCase_25526"/>
+        <class name="smokeCase.TestCase_25529"/>
+        
+                <!--Sprint 12  -->
+        <class name="smokeCase.TestCase_25056"/>
+	    <class name="smokeCase.TestCase_25574"/>
+		<class name="smokeCase.TestCase_25555"/>
+		<!-- <class name="smokeCase.TestCase_25556"/> --> 
+		
+                  <!--Sprint 13  -->
+        <class name="smokeCase.TestCase_25811"/>
+	    <class name="smokeCase.TestCase_25812"/>
+	    <class name="smokeCase.TestCase_25580"/>
+	    <class name="smokeCase.TestCase_25585"/>
+	    <class name="smokeCase.TestCase_25582"/>
+ <!--==================================================CHERMA==========================================================  -->  
+                	  <!--Sprint 3  -->  
+         <class name="smokeCase.TestCase_24652"/>
+         <class name="smokeCase.TestCase_24683"/> 
+		 <class name="smokeCase.TestCase_24667"/>
+         <class name="smokeCase.TestCase_24669"/>
+
+         <class name="smokeCase.TestCase_24659"/>
+
+                    <!--  Sprint 4   -->
+
+         <class name="smokeCase.TestCase_24690"/>
+         <class name="smokeCase.TestCase_24692"/>
+  
+         <class name="smokeCase.TestCase_24681"/> 
+         <class name="smokeCase.TestCase_25787"/> 
+ 		 <class name="smokeCase.TestCase_24530"/> 
+		 <class name="smokeCase.TestCase_24522"/>
+		 <class name="smokeCase.TestCase_24527"/> 
+		 <class name="smokeCase.TestCase_24523"/>
+		 <class name="smokeCase.TestCase_24359"/> 
+		     <!--  Sprint 6   -->
+		  <class name="smokeCase.TestCase_24481"/> 
+		  <class name="smokeCase.TestCase_24482"/> 
+		  <class name="smokeCase.TestCase_24480"/> 
+		  <class name="smokeCase.TestCase_24487"/> 
+		  <class name="smokeCase.TestCase_24488"/> 
+		  <class name="smokeCase.TestCase_24490"/>  
+		  <class name="smokeCase.TestCase_26321"/> 
+		  <class name="smokeCase.TestCase_25041"/> 
+		       <!--  Sprint 7   -->
+		  <class name="smokeCase.TestCase_24671"/>
+		  <class name="smokeCase.TestCase_25527"/>
+		  <class name="smokeCase.TestCase_25528"/> 
+		  <class name="smokeCase.TestCase_25784"/> 
+
+  
+		</classes>
+	</test> 
+</suite> 
+

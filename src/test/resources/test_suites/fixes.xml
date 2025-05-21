@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke">
+
+	<test name="fixes">
+
+		<parameter name="browser" value="chrome"/>
+		<parameter name="testType" value="Single Test"/>
+		<parameter name="environment" value="Windows"/>
+		<parameter name="url" value="localhost"></parameter>
+
+		<classes>
+<!--			<class name="smokeCase.TestCase_24479"/>-->
+<!--			<class name="smokeCase.TestCase_24481"/>-->
+
+<!--			<class name="smokeCase.TestCase_24657"/>-->
+			<class name="smokeCase.TestCase_24669"/>
+		</classes>
+	</test> <!-- Testng -->
+</suite> <!-- Suite -->

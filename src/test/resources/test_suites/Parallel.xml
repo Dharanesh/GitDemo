@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_Default_Parallel" thread-count="3" parallel="tests">
+
+<test name="Test_3">
+	<parameter name="browser" value="firefox"></parameter> 
+	<classes>
+		 <class name="smokeCase.TestCase_26071"/>
+		 <class name="smokeCase.TestCase_26063"/>
+		   <class name="smokeCase.TestCase_26064"/>
+		   	<class name="smokeCase.TestCase_26066"/>
+		   	<class name="smokeCase.TestCase_26067"/> 
+	</classes>
+</test> 
+
+  <test name="Test_1">
+	<parameter name="browser" value="Chrome"></parameter> 
+	<classes>
+			<class name="smokeCase.TestCase_26071"/>
+			<class name="smokeCase.TestCase_26063"/>
+		   <class name="smokeCase.TestCase_26064"/>
+		   	<class name="smokeCase.TestCase_26066"/>
+		   	<class name="smokeCase.TestCase_26067"/>  
+	</classes>
+</test> 
+
+ <test name="Test_2">
+	<parameter name="browser" value="edge"></parameter> 
+	<classes>
+	
+		 <class name="smokeCase.TestCase_26071"/>
+		<class name="smokeCase.TestCase_26063"/>
+		   <class name="smokeCase.TestCase_26064"/>
+		   	<class name="smokeCase.TestCase_26066"/>
+		   	<class name="smokeCase.TestCase_26067"/>   
+	</classes>
+</test>   
+
+</suite> <!-- Suite -->
