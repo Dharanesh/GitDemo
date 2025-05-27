@@ -1,6 +1,5 @@
-package regression;
-
-public class Sample {
+package features;
+public class Development {
 
 	public static void main(String[] args) throws Exception 
 	{
@@ -14,12 +13,13 @@ public class Sample {
 		System.out.println("Pack2 added");
 		System.out.println("Pack3 added");
 		System.out.println("Pack4 added");
-		System.out.println("Extra line2 added");
-		System.out.println("Pack55 added");
-		System.out.println("Pack66 added");
-		System.out.println("Pack77 added");
-		System.out.println("Pack88 added");
 		
+		System.out.println("Architect1");
+		System.out.println("Architect2");
+		System.out.println("Architect3");
+		System.out.println("Architect4");
+		System.out.println("Architect5");
+		System.out.println("Architect6");
 		
 		
 		}
