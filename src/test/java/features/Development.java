@@ -20,6 +20,13 @@ public class Development {
 		System.out.println("Architect4");
 		System.out.println("Architect5");
 		System.out.println("Architect6");
+		System.out.println("===========================================");
+		System.out.println("Architect7");
+		System.out.println("Architect8");
+		System.out.println("Architect9");
+		
+		
+		
 		
 		
 		}
